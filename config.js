@@ -11,7 +11,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     // ===== BOT CORE SETTINGS =====
     SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
-    PREFIX: getConfig("PREFIX") || "",  // Command prefix (e.g., "., / ! * - +")
+    PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "BALOCH-MD",  // Bot's displ
     MODE: getConfig("MODE") || process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -19,10 +19,10 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923003534702",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923243252787",  // Owner's WhatsApp number
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Hafeez Baloch",           // Owner's name
-    DEV: process.env.DEV || "923003534702",                     // Developer's contact number
-    DEVELOPER_NUMBER: '923003534702@s.whatsapp.net',            // Developer's WhatsApp ID
+    DEV: process.env.DEV || "923243252787",                     // Developer's contact number
+    DEVELOPER_NUMBER: '923243252787@s.whatsapp.net',            // Developer's WhatsApp ID
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?

@@ -10,19 +10,19 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "https://mega.nz/file/mQB0FS6L#mmFPYY-_dm8Hu_Q71K0zYHkLXNzE7PXpRXyOx07j-X4",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-MD",  // Bot's displ
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "BALOCH-MD",  // Bot's displ
     MODE: getConfig("MODE") || process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/JawadTechXD/KHAN-MD",  // Bot's GitHub repo
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923243252787",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923003534702",  // Owner's WhatsApp number
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Hafeez Baloch",           // Owner's name
-    DEV: process.env.DEV || "923243252787",                     // Developer's contact number
-    DEVELOPER_NUMBER: '923243252787@s.whatsapp.net',            // Developer's WhatsApp ID
+    DEV: process.env.DEV || "923003534702",                     // Developer's contact number
+    DEVELOPER_NUMBER: '923003534702@s.whatsapp.net',            // Developer's WhatsApp ID
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
@@ -54,7 +54,7 @@ module.exports = {
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*",  // Bot description
+    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ HAFEEZ TᴇᴄʜX*",  // Bot description
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?

@@ -40,8 +40,8 @@
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
-      "value": "false"  
+      "required": true,
+      "value": "true"  
     },    
    
     "AUTO_REPLY": {
@@ -172,7 +172,7 @@
     
     "ANTI_DEL_PATH": {
       "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
-      "required": false,
+      "required": true,
       "value": "inbox"
     }, 
 
